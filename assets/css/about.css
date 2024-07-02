@@ -1,0 +1,30 @@
+
+.category-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.category-image {
+    width: 50%;
+    max-width: 400px;
+    opacity: 0.8; /* Adjust the opacity value here */
+    transition: opacity 0.5s; /* Smooth transition effect */
+}
+
+.category-image:hover {
+    opacity: 1; /* Full opacity on hover */
+}
+
+.category-text {
+    width: 50%;
+    padding: 20px;
+}
+
+.left {
+    order: 1;
+}
+
+.right {
+    order: 2;
+}
