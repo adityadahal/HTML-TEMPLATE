@@ -48,6 +48,9 @@ body {
   background-color: var(--background-color);
   font-family: var(--default-font);
 }
+.example::-webkit-scrollbar {
+  display: none;
+}
 
 a {
   color: var(--accent-color);
@@ -87,7 +90,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
+  max-height: 55px;
   margin-right: 8px;
 }
 
